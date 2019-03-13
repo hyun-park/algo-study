@@ -4,8 +4,6 @@ using namespace std;
 
 const int dy[8] = {-1,-1,-1,0,0,1,1,1};
 const int dx[8] = {-1,0,1,-1,1,-1,0,1};
-int recursive_count = 0;
-
 
 bool isInRange(int y, int x) {
 	if((y >= 0 && y <= 4 ) && (x >= 0 && x<= 4)) {
